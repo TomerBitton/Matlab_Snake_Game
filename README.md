@@ -1,15 +1,20 @@
 # Matlab_Snake_Game
 
 1. Introduction
+
 The MATLAB Snake Game is a classic arcade game implemented in MATLAB. It is a text-based game where you control a snake that moves around the game board and tries to eat food to grow longer. The game is over if the snake collides with the game board's boundaries or itself.
 
+
 2. Prerequisites
+
 Before you can run the MATLAB Snake Game, you will need the following:
 - MATLAB installed on your computer.
 - Basic familiarity with MATLAB programming.
 - A desire to have fun!
 
+
 3. Getting Started
+
 To get started with the game, follow these steps:
 - Clone or download this repository to your computer.
 - Open MATLAB and navigate to the directory where you have the game files.
@@ -17,7 +22,9 @@ To get started with the game, follow these steps:
 - Run the snake_game script by clicking the "Run" button in the MATLAB toolbar or by typing snake_game in the MATLAB command window.
 - The game will start, and you can begin playing by following the on-screen instructions.
 
+
 4. Game Controls
+
 The game is controlled using the following keys:
 - W or ↑: Move the snake up.
 - S or ↓: Move the snake down.
@@ -25,7 +32,9 @@ The game is controlled using the following keys:
 - D or →: Move the snake right.
 - Q: Quit the game.
 
+
 5. Game Rules
+
 The rules of the game are simple:
 - Your goal is to eat the food to grow longer.
 - The game ends if the snake collides with the boundaries of the game board or with itself.
