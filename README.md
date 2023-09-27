@@ -40,7 +40,8 @@ The rules of the game are simple:
 - The game ends if the snake collides with the boundaries of the game board or with itself.
 - Your score is determined by the number of food items eaten.
 
-note:
+Note:
+
 When you press the start game button, in order to control the snake with the keyboard, you must click with the mouse on the game display immediately after pressing the start game button. 
 This is due to the fact that when we click on start the game, the focus of the game focuses on the button that is pressed and not on the keyboard, so in order to return the focus to the keyboard, you have to click with the mouse on the game display.
   
