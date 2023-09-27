@@ -19,7 +19,7 @@ To get started with the game, follow these steps:
 - Clone or download this repository to your computer.
 - Open MATLAB and navigate to the directory where you have the game files.
 - Open the snake_game.m script in MATLAB.
-- Run the snake_game script by clicking the "Run" button in the MATLAB toolbar or by typing snake_game in the MATLAB command window.
+- Run the snake game script by clicking the "Run" button in the MATLAB toolbar. 
 - The game will start, and you can begin playing by following the on-screen instructions.
 
 
@@ -39,5 +39,10 @@ The rules of the game are simple:
 - Your goal is to eat the food to grow longer.
 - The game ends if the snake collides with the boundaries of the game board or with itself.
 - Your score is determined by the number of food items eaten.
+
+note:
+When you press the start game button, in order to control the snake with the keyboard, you must click with the mouse on the game display immediately after pressing the start game button. 
+This is due to the fact that when we click on start the game, the focus of the game focuses on the button that is pressed and not on the keyboard, so in order to return the focus to the keyboard, you have to click with the mouse on the game display.
+  
 
 Enjoy the game!
