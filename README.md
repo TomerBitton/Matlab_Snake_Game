@@ -30,7 +30,6 @@ The game is controlled using the following keys:
 - S or ↓: Move the snake down.
 - A or ←: Move the snake left.
 - D or →: Move the snake right.
-- Q: Quit the game.
 
 
 5. Game Rules
