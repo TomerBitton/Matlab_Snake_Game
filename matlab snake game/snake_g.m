@@ -23,9 +23,9 @@ end
 function snake_g_OpeningFcn(hObject, eventdata, handles, varargin)
 % This function has no output args, see OutputFcn.
 % hObject    handle to figure
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-% varargin   command line arguments to snake_g (see VARARGIN)
+% eventdata  reserved 
+% handles    structure with handles and user data 
+% varargin   command line arguments to snake_g 
 
 % Choose default command line output for snake_g
 handles.output = hObject;
@@ -51,7 +51,7 @@ set(handles.highest_score, 'String', num2str(highestScore));
 function varargout = snake_g_OutputFcn(hObject, eventdata, handles) 
 % varargout  cell array for returning output args (see VARARGOUT);
 % hObject    handle to figure
-% eventdata  reserved - to be defined in a future version of MATLAB
+% eventdata  reserved 
 % handles    structure with handles and user data (see GUIDATA)
 
 % Get default command line output from handles structure
@@ -279,9 +279,9 @@ end
 
 % --- Executes on button press in end_game.
 function end_game_Callback(hObject, eventdata, handles)
-% hObject    handle to end_game (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
+% hObject    handle to end_game 
+% eventdata  reserved 
+% handles    structure with handles and user data 
 global highestScore;
 global score_keeper;
 highestScore=0;
